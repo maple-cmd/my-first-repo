@@ -11,3 +11,5 @@
 - DBについて
     - [Dockerでポスグレ立てるやり方](https://zenn.dev/ayano_sakai/articles/42e64d873bf7df)
     - [Pgadminについて](https://qiita.com/prg_mt/items/c5c8edbf45dfe87b54ef)
+- wslについて
+    -[Wsl入れ方](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/install-wsl-on-ec2-windows-instance.html)
