@@ -1,0 +1,4 @@
+cd tsc_offline
+
+# pip でローカルファイルからインストール
+pip install --no-index --find-links=. tableauserverclient
