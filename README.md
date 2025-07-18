@@ -14,4 +14,4 @@
 - wslについて
     -[Wsl入れ方](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/install-wsl-on-ec2-windows-instance.html)
 - tableau vscode-server
-    - 実際のリンク（あなたのバージョン用）：(https://update.code.visualstudio.com/commit:dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server-linux-x64/stable)
+    - リンク（バージョン用）：(https://update.code.visualstudio.com/commit:dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server-linux-x64/stable)
