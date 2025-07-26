@@ -15,3 +15,5 @@
     -[Wsl入れ方](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/install-wsl-on-ec2-windows-instance.html)
 - tableau vscode-server
     - リンク（バージョン用）：(https://update.code.visualstudio.com/commit:dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server-linux-x64/stable)
+- mattermost
+    -[mattermost入れ方](https://qiita.com/nanbuwks/items/b20e2df483f6806909ab)     
