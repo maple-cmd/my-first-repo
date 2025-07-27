@@ -2,6 +2,7 @@
 
 - vscode 
     - [ここをクリック](https://code.visualstudio.com/Download)
+    [vscode serverのダウンロードページ](https://update.code.visualstudio.com/1.101.0/server-linux-x64/stable)
 - Tableau
     - [RestApi](https://github.com/tableau/rest-api-samples)
     - [version](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_versions.htm)
