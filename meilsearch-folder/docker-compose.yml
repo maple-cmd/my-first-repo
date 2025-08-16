@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: mm_user
+      POSTGRES_PASSWORD: mm_pass
+      POSTGRES_DB: mattermost
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./postgres/pgdata:/var/lib/postgresql/data
+    networks:
+      - meili-net
+
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    container_name: meili
+    ports:
+      - "7700:7700"
+    volumes:
+      - ./meilisearch/meili_data:/meili_data
+    networks:
+      - meili-net
+
+  python:
+    build: .
+    container_name: py-meili
+    depends_on:
+      - postgres
+      - meilisearch
+    volumes:
+      - ./scripts:/home/scripts
+    working_dir: /home/scripts
+    command: tail -f /dev/null   # 常駐させる
+    networks:
+      - meili-net
+
+networks:
+  meili-net:
